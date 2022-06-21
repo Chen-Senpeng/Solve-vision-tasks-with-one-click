@@ -1,8 +1,8 @@
 from io import StringIO
 from pathlib import Path
 import streamlit as st
-from detect_FFA import detect
-# from detect_DMSHN import detect
+# from detect_FFA import detect
+from detect_DMSHN import detect
 import os
 import sys
 import cv2
